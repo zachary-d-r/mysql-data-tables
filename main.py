@@ -2,10 +2,10 @@ import mysql.connector
 
 text = open('pass.txt', 'r')
 passwd = text.readline()
-database = "students"
+database = "databaseName"
 db = mysql.connector.connect(
     host='localhost',
-    user="Zachary",
+    user="userName",
     password=passwd,
     database=database
     )
